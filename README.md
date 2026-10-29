@@ -1,8 +1,8 @@
-# DRL-ACO: learned versus tuned parameter control of ACO for multi-objective cloud task scheduling
+# DRL-ACO: Deep Reinforcement Learning versus Offline Tuning for Parameter Control of Ant Colony Optimization in Weighted Multi-Objective Cloud Task Scheduling
 
 Code, benchmark instances, trained policies and raw results for the paper
 
-> Z. Benlalia, O. Houdaif, T. Mzili. *Learned versus Tuned Parameter Control of Ant Colony Optimization for Weighted Multi-Objective Cloud Task Scheduling.* Soft Computing (under revision).
+> Z. Benlalia, O. Houdaif, T. Mzili. *Deep Reinforcement Learning versus Offline Tuning for Parameter Control of Ant Colony Optimization in Weighted Multi-Objective Cloud Task Scheduling.* Soft Computing (under revision).
 
 Every number, table and figure in the paper is computed from the CSV files in `results/` by the scripts in `src/`. The whole pipeline is deterministic (fixed seeds), and `python src/verify.py` re-runs a subset and checks it against the shipped results bit for bit.
 
